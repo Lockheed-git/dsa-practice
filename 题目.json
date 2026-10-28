@@ -1,0 +1,2320 @@
+[
+  {
+    "id": "1-1",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-1. 数据结构的研究内容包括三个方面：____、____ 和____。",
+    "questionImages": [
+      "assets/questions/1-1-q-1.webp"
+    ],
+    "sourcePage": 7
+  },
+  {
+    "id": "1-2",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-2. 抽象数据类型（ADT）由____ 和____ 两部分组成，它不包括____。",
+    "questionImages": [
+      "assets/questions/1-2-q-1.webp"
+    ],
+    "sourcePage": 7
+  },
+  {
+    "id": "1-3",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-3. 数据的四种基本存储方式是____、____、____、____。",
+    "questionImages": [
+      "assets/questions/1-3-q-1.webp"
+    ],
+    "sourcePage": 7
+  },
+  {
+    "id": "1-4",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-4. 大𝑂表示法的定义：称𝑓(𝑛) = 𝑂(𝑔(𝑛))，当且仅当存在正常数____ 和____，\n使得对所有____ 都有____ 成立。",
+    "questionImages": [
+      "assets/questions/1-4-q-1.webp"
+    ],
+    "sourcePage": 7
+  },
+  {
+    "id": "1-5",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-5. 把下列函数按渐进增长率从小到大排序：𝑛log 𝑛，2𝑛，𝑛2，log 𝑛，𝑛!，𝑛，\n𝑛3，1，√𝑛，22𝑛。",
+    "questionImages": [
+      "assets/questions/1-5-q-1.webp"
+    ],
+    "sourcePage": 7
+  },
+  {
+    "id": "1-6",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-6. 本书列出的算法基本性质有____、____、____、____。",
+    "questionImages": [
+      "assets/questions/1-6-q-1.webp"
+    ],
+    "sourcePage": 7
+  },
+  {
+    "id": "1-7",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-7. 数据的逻辑结构用二元组(𝐾, 𝑅) 表示时，𝐾是____，𝑅是____；画结构图\n时，𝑅中的序偶⟨𝑥, 𝑦⟩必须画成____。",
+    "questionImages": [
+      "assets/questions/1-7-q-1.webp"
+    ],
+    "sourcePage": 8
+  },
+  {
+    "id": "1-8",
+    "chapterName": "概论",
+    "type": "填空题",
+    "important": false,
+    "question": "1-8. 三个算法的时间代价分别为：𝑇1(𝑛) = 2𝑇1(𝑛−1) + 3，𝑇1(1) = 1；\n                  = 4𝑛/2 + 𝑛10。它们的渐进紧确界依次𝑇2(𝑛) = 𝑛2 + 𝑛√𝑛log2 𝑛；𝑇3(𝑛)\n是____、____、____；按增长从高到低排列为____。",
+    "questionImages": [
+      "assets/questions/1-8-q-1.webp"
+    ],
+    "sourcePage": 8
+  },
+  {
+    "id": "1-9",
+    "chapterName": "概论",
+    "type": "选择题",
+    "important": false,
+    "question": "1-9. 下列关于抽象数据类型的叙述，错误的是（　）。A. ADT 给出了数据对象、数\n据关系和基本运算B. ADT 的定义中包含了数据的存储结构C. 同一个ADT 可以\n有多种不同的实现D. ADT 把「做什么」和「怎么做」分开",
+    "questionImages": [
+      "assets/questions/1-9-q-1.webp"
+    ],
+    "sourcePage": 8
+  },
+  {
+    "id": "1-10",
+    "chapterName": "概论",
+    "type": "选择题",
+    "important": false,
+    "question": "1-10. 以下说法正确的是（　）。A. 算法的时间代价必定随问题规模单调增长B.\n若𝑓(𝑛) = 𝑂(𝑛2)，则𝑓(𝑛) 一定不是𝑂(𝑛) C. 大𝑂给出的是渐进上界，同一个\n函数可以有多个正确的大𝑂表达式D. 最坏情况分析和大𝑂分析是同一件事",
+    "questionImages": [
+      "assets/questions/1-10-q-1.webp"
+    ],
+    "sourcePage": 8
+  },
+  {
+    "id": "1-11",
+    "chapterName": "概论",
+    "type": "选择题",
+    "important": false,
+    "question": "1-11. 下面程序段中循环体执行次数的渐进紧确界是（　）。\n\n s ←0;  i ←1\n do\n     s ←s + 5 * i\n     i ←i + 1\nwhile (s < n) and (i < n)\n   A. Θ(𝑛) 　B. Θ(√𝑛) 　C. Θ(log 𝑛) 　D. Θ(𝑛2)",
+    "questionImages": [
+      "assets/questions/1-11-q-1.webp",
+      "assets/questions/1-11-q-2.webp"
+    ],
+    "sourcePage": 8
+  },
+  {
+    "id": "1-12",
+    "chapterName": "概论",
+    "type": "选择题",
+    "important": false,
+    "question": "1-12. 对同一问题，算法A 的时间代价为1000𝑛，算法B 为𝑛2。下列说法正确的\n是（　）。A. A 总比B 快　B. B 总比A 快　C. 𝑛> 1000 时A 比B 快　D. 两者\n渐进同阶",
+    "questionImages": [
+      "assets/questions/1-12-q-1.webp"
+    ],
+    "sourcePage": 9
+  },
+  {
+    "id": "1-13",
+    "chapterName": "概论",
+    "type": "选择题",
+    "important": false,
+    "question": "1-13. 下列各式中不成立的是（　）。A. 3𝑛2+10𝑛= 𝑂(𝑛2) 　B. 𝑛2/(𝑛+1) =\n𝑂(𝑛) 　C. 2𝑛+1 = 𝑂(2𝑛) 　D. 22𝑛= 𝑂(2𝑛)",
+    "questionImages": [
+      "assets/questions/1-13-q-1.webp"
+    ],
+    "sourcePage": 9
+  },
+  {
+    "id": "1-14",
+    "chapterName": "概论",
+    "type": "选择题",
+    "important": false,
+    "question": "1-14. 下面两段程序中s++ 执行次数的渐进紧确界分别是（　）。\n\n // 程序甲                              // 程序乙\n for (i = 1; i <= n; i++)               for (i = 1; i <= n; i *= 2)\n     for (j = i; j >= 1; j /= 3)            for (j = 1; j <= i; j++)\n         s++;                                   s++;\n\n    A. Θ(𝑛log 𝑛)，Θ(𝑛log 𝑛) 　B. Θ(𝑛log 𝑛)，Θ(𝑛) C. Θ(𝑛)，Θ(𝑛log 𝑛)\n　D. Θ(𝑛2)，Θ(𝑛)",
+    "questionImages": [
+      "assets/questions/1-14-q-1.webp"
+    ],
+    "sourcePage": 9
+  },
+  {
+    "id": "1-15",
+    "chapterName": "概论",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "1-15. 辨析：「数据的逻辑结构一旦确定，存储结构也就确定了。」",
+    "questionImages": [
+      "assets/questions/1-15-q-1.webp"
+    ],
+    "sourcePage": 9
+  },
+  {
+    "id": "1-16",
+    "chapterName": "概论",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "1-16. ★简答：最坏情况分析与大𝑂表示法有什么区别和联系？为什么说「某算\n法的时间复杂度是𝑂(𝑛2)」这句话本身并不说明它是最坏情况？",
+    "questionImages": [
+      "assets/questions/1-16-q-1.webp"
+    ],
+    "sourcePage": 10
+  },
+  {
+    "id": "1-17",
+    "chapterName": "概论",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "1-17. 简答：时间与空间的折衷，举一个例子说明。",
+    "questionImages": [
+      "assets/questions/1-17-q-1.webp"
+    ],
+    "sourcePage": 10
+  },
+  {
+    "id": "1-18",
+    "chapterName": "概论",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "1-18. 简答：为什么渐进分析要「保留增长最快的那一项」并丢掉常数因子？什\n么时候这样做会误导人？",
+    "questionImages": [
+      "assets/questions/1-18-q-1.webp"
+    ],
+    "sourcePage": 10
+  },
+  {
+    "id": "1-19",
+    "chapterName": "概论",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "1-19. 设𝐾= {𝑘1, 𝑘2, 𝑘3, 𝑘4}，𝑅= {⟨𝑘1, 𝑘2⟩, ⟨𝑘2, 𝑘3⟩, ⟨𝑘2, 𝑘4⟩, ⟨𝑘4, 𝑘1⟩}。\n画出该逻辑结构的示意图，并说明它属于哪一类结构。",
+    "questionImages": [
+      "assets/questions/1-19-q-1.webp"
+    ],
+    "sourcePage": 10
+  },
+  {
+    "id": "1-20",
+    "chapterName": "概论",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "1-20. ★设计：某系统要维护一批学生成绩，要求支持三种操作—— (a) 按学号\n查一个学生(b) 插入一个新学生(c) 按成绩从高到低输出全部学生。若三种操作\n的频率相当，请给出一种数据结构设计并分析代价；若(c) 只在学期末执行一次，\n设计又该怎么改？",
+    "questionImages": [
+      "assets/questions/1-20-q-1.webp"
+    ],
+    "sourcePage": 11
+  },
+  {
+    "id": "1-21",
+    "chapterName": "概论",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "1-21. ★分析下列程序段中x ←x + 1 的执行次数𝑚，并给出时间复杂度。\n\n for i ←1 to n\n     for j ←1 to n - 2 * i + 1\n         x ←x + 1",
+    "questionImages": [
+      "assets/questions/1-21-q-1.webp"
+    ],
+    "sourcePage": 11
+  },
+  {
+    "id": "1-22",
+    "chapterName": "概论",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "1-22. ★分析下面程序段中内层循环体的执行次数，给出时间复杂度。\nfor i ←1 to n\n    j ←i\n    while j ≤n\n    操作\n        j ←j + i",
+    "questionImages": [
+      "assets/questions/1-22-q-1.webp",
+      "assets/questions/1-22-q-2.webp"
+    ],
+    "sourcePage": 11
+  },
+  {
+    "id": "1-23",
+    "chapterName": "概论",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "1-23. ★求下列递推式的渐进解：(1) 𝑇(𝑛) = 𝑇(𝑛/2) + 𝑐；(2) 𝑇(𝑛) =\n2𝑇(𝑛/2) + 𝑐；(3) 𝑇(𝑛) = 2𝑇(𝑛/2) + 𝑛；(4) 𝑇(𝑛) = 𝑇(𝑛−1) + 𝑛。",
+    "questionImages": [
+      "assets/questions/1-23-q-1.webp"
+    ],
+    "sourcePage": 12
+  },
+  {
+    "id": "1-24",
+    "chapterName": "概论",
+    "type": "数学证明",
+    "important": false,
+    "question": "1-24. 用大𝑂的定义证明3𝑛2 + 10𝑛+ 7 = 𝑂(𝑛2)，并给出一组具体的𝑐与𝑛0。",
+    "questionImages": [
+      "assets/questions/1-24-q-1.webp"
+    ],
+    "sourcePage": 12
+  },
+  {
+    "id": "1-25",
+    "chapterName": "概论",
+    "type": "数学证明",
+    "important": false,
+    "question": "1-25. 证明：对任意非负函数𝑓, 𝑔，有max{𝑓(𝑛), 𝑔(𝑛)} = Θ(𝑓(𝑛) + 𝑔(𝑛))。",
+    "questionImages": [
+      "assets/questions/1-25-q-1.webp"
+    ],
+    "sourcePage": 13
+  },
+  {
+    "id": "1-26",
+    "chapterName": "概论",
+    "type": "数学证明",
+    "important": true,
+    "question": "1-26. ★证明𝑇(𝑛) = 2𝑇(⌊𝑛/2⌋) + 𝑛（𝑇(1) = 1）的解是Θ(𝑛log 𝑛)。",
+    "questionImages": [
+      "assets/questions/1-26-q-1.webp"
+    ],
+    "sourcePage": 13
+  },
+  {
+    "id": "1-27",
+    "chapterName": "概论",
+    "type": "数学证明",
+    "important": false,
+    "question": "1-27. 设𝑓, 𝑔为非负函数（(1) 中取对数时要求𝑓, 𝑔> 0），判断下列命题真\n假并证明或举反例：(1) 若𝑓(𝑛) = 𝑂(𝑔(𝑛))，则log 𝑓(𝑛) = 𝑂(log 𝑔(𝑛))；\n(2) 若𝑓(𝑛) = 𝑂(𝑔(𝑛))，则2𝑓(𝑛) = 𝑂(2𝑔(𝑛))；(3) 若𝑓(𝑛) = 𝑂(𝑔(𝑛))，\n则𝑓(𝑛)2 = 𝑂(𝑔(𝑛)2)。",
+    "questionImages": [
+      "assets/questions/1-27-q-1.webp"
+    ],
+    "sourcePage": 13
+  },
+  {
+    "id": "1-28",
+    "chapterName": "概论",
+    "type": "数学证明",
+    "important": false,
+    "question": "1-28. 证明log2(𝑛!) = Θ(𝑛log 𝑛)。",
+    "questionImages": [
+      "assets/questions/1-28-q-1.webp"
+    ],
+    "sourcePage": 13
+  },
+  {
+    "id": "2-1",
+    "chapterName": "线性表",
+    "type": "填空题",
+    "important": false,
+    "question": "2-1. 线性表是𝑛（𝑛≥0）个数据元素的____ 序列。表中除第一个元素外，每个\n元素有且仅有一个____；除最后一个元素外，每个元素有且仅有一个____。",
+    "questionImages": [
+      "assets/questions/2-1-q-1.webp"
+    ],
+    "sourcePage": 15
+  },
+  {
+    "id": "2-2",
+    "chapterName": "线性表",
+    "type": "填空题",
+    "important": false,
+    "question": "2-2. 长度为𝑛的顺序表，在等概率前提下，插入一个元素平均需要移动____ 个元\n素，删除一个元素平均需要移动____ 个元素。",
+    "questionImages": [
+      "assets/questions/2-2-q-1.webp"
+    ],
+    "sourcePage": 15
+  },
+  {
+    "id": "2-3",
+    "chapterName": "线性表",
+    "type": "填空题",
+    "important": false,
+    "question": "2-3. 在带头结点的单链表L 中，空表的判定条件是____；在不带头结点的单链表\n中，空表的判定条件是____。",
+    "questionImages": [
+      "assets/questions/2-3-q-1.webp"
+    ],
+    "sourcePage": 15
+  },
+  {
+    "id": "2-4",
+    "chapterName": "线性表",
+    "type": "填空题",
+    "important": false,
+    "question": "2-4. 在双链表中删除指针p 所指的结点（p 不是首尾结点），需要执行的两条指针\n操作是____ 和____。",
+    "questionImages": [
+      "assets/questions/2-4-q-1.webp"
+    ],
+    "sourcePage": 15
+  },
+  {
+    "id": "2-5",
+    "chapterName": "线性表",
+    "type": "填空题",
+    "important": false,
+    "question": "2-5. 设每个数据域大小为𝑠、指针大小为𝑝（忽略头结点、内存对齐及分配开销）。\n当表的装填程度（实际元素数/ 预分配容量）小于____ 时，链表比顺序表省空间。",
+    "questionImages": [
+      "assets/questions/2-5-q-1.webp"
+    ],
+    "sourcePage": 15
+  },
+  {
+    "id": "2-6",
+    "chapterName": "线性表",
+    "type": "填空题",
+    "important": false,
+    "question": "2-6. 在循环单链表中，判断指针p 指向尾结点的条件是____。",
+    "questionImages": [
+      "assets/questions/2-6-q-1.webp"
+    ],
+    "sourcePage": 15
+  },
+  {
+    "id": "2-7",
+    "chapterName": "线性表",
+    "type": "选择题",
+    "important": false,
+    "question": "2-7. 在一个长度为𝑛的顺序表中，在第𝑖个元素之前插入一个新元素（1 ≤𝑖≤\n𝑛+ 1），需要向后移动____ 个元素。A. 𝑛−𝑖　B. 𝑛−𝑖+ 1 　C. 𝑛−𝑖−1\n　D. 𝑖",
+    "questionImages": [
+      "assets/questions/2-7-q-1.webp"
+    ],
+    "sourcePage": 15
+  },
+  {
+    "id": "2-8",
+    "chapterName": "线性表",
+    "type": "选择题",
+    "important": true,
+    "question": "2-8. ★已知p 指向带头结点单链表中的某个结点（非尾结点），要在p 之后插入\n结点s，下列语句序列正确的是（　）。A. s->next = p->next; p->next = s; B.\np->next = s; s->next = p->next; C. s->next = p; p->next = s; D. p->next =\ns->next; s->next = p;",
+    "questionImages": [
+      "assets/questions/2-8-q-1.webp"
+    ],
+    "sourcePage": 16
+  },
+  {
+    "id": "2-9",
+    "chapterName": "线性表",
+    "type": "选择题",
+    "important": true,
+    "question": "2-9. ★设p 指向单链表中的某结点，下列操作不能在𝑂(1) 时间内完成的是（　）。\nA. 删除p 的后继结点B. 在p 之后插入一个结点C. 删除p 本身（单链表，仅给p）\nD. 访问p 的数据域",
+    "questionImages": [
+      "assets/questions/2-9-q-1.webp"
+    ],
+    "sourcePage": 16
+  },
+  {
+    "id": "2-10",
+    "chapterName": "线性表",
+    "type": "选择题",
+    "important": false,
+    "question": "2-10. 下列关于顺序表与链表的比较，正确的是（　）。A. 顺序表查找任意元素都\n比链表快B. 链表的插入删除一定比顺序表快C. 顺序表适合表长稳定、以随机访\n问为主的场合D. 链表不需要预先估计表长，所以任何情况下都更优",
+    "questionImages": [
+      "assets/questions/2-10-q-1.webp"
+    ],
+    "sourcePage": 16
+  },
+  {
+    "id": "2-11",
+    "chapterName": "线性表",
+    "type": "选择题",
+    "important": false,
+    "question": "2-11. 带头结点的循环双链表L 为空的判定条件是（　）。A. L == nullptr 　B.\nL->next == nullptr C. L->next == L 　D. L->prev == nullptr",
+    "questionImages": [
+      "assets/questions/2-11-q-1.webp"
+    ],
+    "sourcePage": 16
+  },
+  {
+    "id": "2-12",
+    "chapterName": "线性表",
+    "type": "选择题",
+    "important": true,
+    "question": "2-12. ★在带头结点的循环双链表中，p 指向某个结点，要在p 之后插入结点s。\n下列语句序列中错误的是（　）。A. s->prev = p; s->next = p->next; p->next-\n>prev = s; p->next = s; B. s->next = p->next; p->next->prev = s; s->prev = p;\np->next = s; C. s->prev = p; s->next = p->next; p->next = s; p->next->prev\n= s; D. s->next = p->next; s->prev = p; p->next = s; s->next->prev = s;",
+    "questionImages": [
+      "assets/questions/2-12-q-1.webp"
+    ],
+    "sourcePage": 16
+  },
+  {
+    "id": "2-13",
+    "chapterName": "线性表",
+    "type": "选择题",
+    "important": false,
+    "question": "2-13. 链表在使用中丢失了头指针，手里只剩表中某一个结点的指针p（不知道它\n是第几个）。下列哪些结构仍能从p 出发访问到表中全部结点？（多选）（　）A.\n不带头结点的单链表　B. 循环单链表　C. 双向链表（非循环）　D. 循环双链表",
+    "questionImages": [
+      "assets/questions/2-13-q-1.webp"
+    ],
+    "sourcePage": 17
+  },
+  {
+    "id": "2-14",
+    "chapterName": "线性表",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "2-14. 辨析：「链表比顺序表节省存储空间。」",
+    "questionImages": [
+      "assets/questions/2-14-q-1.webp"
+    ],
+    "sourcePage": 17
+  },
+  {
+    "id": "2-15",
+    "chapterName": "线性表",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "2-15. 简答：头结点（附加表头结点）有什么作用？不带头结点会多出哪些特例？",
+    "questionImages": [
+      "assets/questions/2-15-q-1.webp"
+    ],
+    "sourcePage": 17
+  },
+  {
+    "id": "2-16",
+    "chapterName": "线性表",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "2-16. ★简答：从查找、插入删除、空间、适用场合四个方面比较顺序表和链表。",
+    "questionImages": [
+      "assets/questions/2-16-q-1.webp"
+    ],
+    "sourcePage": 17
+  },
+  {
+    "id": "2-17",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "2-17. ★设计算法把带头结点的单链表就地逆置（不申请新结点），并分析时空代\n价。",
+    "questionImages": [
+      "assets/questions/2-17-q-1.webp"
+    ],
+    "sourcePage": 18
+  },
+  {
+    "id": "2-18",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "2-18. ★已知两个带头结点的递增有序单链表A、B，设计算法把它们归并成一个\n递增有序表C，要求不申请新结点，且结果中相同的值只保留一个。",
+    "questionImages": [
+      "assets/questions/2-18-q-1.webp"
+    ],
+    "sourcePage": 19
+  },
+  {
+    "id": "2-19",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "2-19. 设计算法在带头结点的单链表中查找倒数第𝑘个结点，要求只遍历一趟、空\n间𝑂(1)。",
+    "questionImages": [
+      "assets/questions/2-19-q-1.webp"
+    ],
+    "sourcePage": 19
+  },
+  {
+    "id": "2-20",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "2-20. 设计算法判断一个单链表中是否存在环，若存在则返回入环的第一个结点。\n要求空间𝑂(1)。",
+    "questionImages": [
+      "assets/questions/2-20-q-1.webp"
+    ],
+    "sourcePage": 20
+  },
+  {
+    "id": "2-21",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "2-21. ★已知p 指向单链表中的某个结点（不是头结点也不是尾结点），要求\n在𝑂(1) 时间内删除p。给出算法，并说明它为什么对尾结点无效。",
+    "questionImages": [
+      "assets/questions/2-21-q-1.webp"
+    ],
+    "sourcePage": 20
+  },
+  {
+    "id": "2-22",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "2-22. ★双链表中结点p 的前驱和后继都存在，且它的后继不是尾结点。设计算\n法把p 与它的后继交换位置，要求只改指针、不动数据域；并说明为什么这些语\n句的先后次序不能随意调换。",
+    "questionImages": [
+      "assets/questions/2-22-q-1.webp"
+    ],
+    "sourcePage": 21
+  },
+  {
+    "id": "2-23",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "2-23. 设计算法删除顺序表中所有值等于𝑥的元素，要求时间𝑂(𝑛)、空间𝑂(1)。",
+    "questionImages": [
+      "assets/questions/2-23-q-1.webp"
+    ],
+    "sourcePage": 21
+  },
+  {
+    "id": "2-24",
+    "chapterName": "线性表",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "2-24. 两个不带头结点的单链表ha、hb 存放单词，后缀相同的部分共享结点，例\n如loading 与being 共享i →n →g 三个结点（整个结构中无环）。设计算法返\n回两表共享部分的第一个结点（不相交时返回空），要求时间𝑂(𝑚+ 𝑛)、额外\n空间𝑂(1)，𝑚、𝑛为两表长度。",
+    "questionImages": [
+      "assets/questions/2-24-q-1.webp"
+    ],
+    "sourcePage": 22
+  },
+  {
+    "id": "2-25",
+    "chapterName": "线性表",
+    "type": "数学证明",
+    "important": false,
+    "question": "2-25. 证明：在长度为𝑛的顺序表中等概率地插入一个元素，平均移动元素数\n为𝑛/2。",
+    "questionImages": [
+      "assets/questions/2-25-q-1.webp"
+    ],
+    "sourcePage": 23
+  },
+  {
+    "id": "2-26",
+    "chapterName": "线性表",
+    "type": "数学证明",
+    "important": false,
+    "question": "2-26. 证明：对有序的单链表，二分检索无法达到𝑂(log 𝑛)。",
+    "questionImages": [
+      "assets/questions/2-26-q-1.webp"
+    ],
+    "sourcePage": 23
+  },
+  {
+    "id": "2-27",
+    "chapterName": "线性表",
+    "type": "数学证明",
+    "important": false,
+    "question": "2-27. 设每个数据元素占𝑠个存储单元、每个指针占𝑝个单元，顺序表预分配容量\n为𝑚、实际存𝑛个元素。忽略头结点、内存对齐及分配开销，求链表比顺序表省\n空间的条件。",
+    "questionImages": [
+      "assets/questions/2-27-q-1.webp"
+    ],
+    "sourcePage": 23
+  },
+  {
+    "id": "3-1",
+    "chapterName": "栈与队列",
+    "type": "填空题",
+    "important": false,
+    "question": "3-1. 栈是限定只能在____ 进行插入和删除的线性表，其特点是____；队列是限定\n在____ 插入、在____ 删除的线性表，其特点是____。",
+    "questionImages": [
+      "assets/questions/3-1-q-1.webp"
+    ],
+    "sourcePage": 25
+  },
+  {
+    "id": "3-2",
+    "chapterName": "栈与队列",
+    "type": "填空题",
+    "important": true,
+    "question": "3-2. ★设循环队列的数组容量为𝑀（牺牲一格，最多存𝑀−1 个元素），front\n指向队头元素、rear 指向队尾元素的下一个位置。则：队空的条件是____，队满\n的条件是____，队中元素个数为____。",
+    "questionImages": [
+      "assets/questions/3-2-q-1.webp"
+    ],
+    "sourcePage": 25
+  },
+  {
+    "id": "3-3",
+    "chapterName": "栈与队列",
+    "type": "填空题",
+    "important": true,
+    "question": "3-3. ★设有𝑛个元素按1, 2, ⋯, 𝑛的顺序依次入栈（中途可任意出栈），则可能\n得到的不同出栈序列共有____ 种。",
+    "questionImages": [
+      "assets/questions/3-3-q-1.webp"
+    ],
+    "sourcePage": 25
+  },
+  {
+    "id": "3-4",
+    "chapterName": "栈与队列",
+    "type": "填空题",
+    "important": false,
+    "question": "3-4. 顺序栈用数组data[0..m-1] 存储，若约定top 指向栈顶元素，则空栈时top\n为____，入栈的两步是____；若约定top 指向栈顶元素的上一个空位，则空栈时\ntop 为____。",
+    "questionImages": [
+      "assets/questions/3-4-q-1.webp"
+    ],
+    "sourcePage": 25
+  },
+  {
+    "id": "3-5",
+    "chapterName": "栈与队列",
+    "type": "填空题",
+    "important": true,
+    "question": "3-5. ★递归调用时，系统运行栈中每个活动记录（栈帧）主要保存三样东西：____、\n____、____。",
+    "questionImages": [
+      "assets/questions/3-5-q-1.webp"
+    ],
+    "sourcePage": 25
+  },
+  {
+    "id": "3-6",
+    "chapterName": "栈与队列",
+    "type": "填空题",
+    "important": false,
+    "question": "3-6. 中缀表达式A + B * (C - D) / E 的后缀形式是____。",
+    "questionImages": [
+      "assets/questions/3-6-q-1.webp"
+    ],
+    "sourcePage": 25
+  },
+  {
+    "id": "3-7",
+    "chapterName": "栈与队列",
+    "type": "填空题",
+    "important": false,
+    "question": "3-7. 双端队列允许在两端插入和删除。把1, 2, 3, 4, 5 依次插入一个初始为空的\n双端队列（每次可以插到队头或队尾，中途不删除），全部插完后从队头到队尾\n读出，可能得到____ 种不同的序列；对一般的𝑛（𝑛≥1），答案是____。",
+    "questionImages": [
+      "assets/questions/3-7-q-1.webp",
+      "assets/questions/3-7-q-2.webp"
+    ],
+    "sourcePage": 25
+  },
+  {
+    "id": "3-8",
+    "chapterName": "栈与队列",
+    "type": "选择题",
+    "important": true,
+    "question": "3-8. ★设入栈序列为1,2,3,4，下列不可能是出栈序列的是（　）。A. 1,2,3,4 　\nB. 4,3,2,1 　C. 3,1,2,4 　D. 2,4,3,1",
+    "questionImages": [
+      "assets/questions/3-8-q-1.webp"
+    ],
+    "sourcePage": 26
+  },
+  {
+    "id": "3-9",
+    "chapterName": "栈与队列",
+    "type": "选择题",
+    "important": false,
+    "question": "3-9. 容量为𝑀的循环队列（牺牲一格），front = 3、rear = 0、𝑀= 8，则队中\n元素个数是（　）。A. 3 　B. 5 　C. 0 　D. 8",
+    "questionImages": [
+      "assets/questions/3-9-q-1.webp"
+    ],
+    "sourcePage": 26
+  },
+  {
+    "id": "3-10",
+    "chapterName": "栈与队列",
+    "type": "选择题",
+    "important": false,
+    "question": "3-10. 下列关于循环队列的叙述正确的是（　）。A. 循环队列解决的是队列「真溢\n出」问题B. 循环队列必须牺牲一个存储单元，没有别的办法C. 循环队列解决的\n是「假溢出」问题，即队尾到达数组末端而前端仍有空闲D. 循环队列中front ==\nrear 一定表示队满",
+    "questionImages": [
+      "assets/questions/3-10-q-1.webp"
+    ],
+    "sourcePage": 26
+  },
+  {
+    "id": "3-11",
+    "chapterName": "栈与队列",
+    "type": "选择题",
+    "important": false,
+    "question": "3-11. 后缀表达式3 4 + 5 2 - * 的值是（　）。A. 21 　B. 17 　C. 35 　D. 9",
+    "questionImages": [
+      "assets/questions/3-11-q-1.webp"
+    ],
+    "sourcePage": 26
+  },
+  {
+    "id": "3-12",
+    "chapterName": "栈与队列",
+    "type": "选择题",
+    "important": false,
+    "question": "3-12. 用两个栈𝑆1、𝑆2 模拟一个队列，下列说法正确的是（　）。A. 每次出队都要\n把𝑆1 全部倒进𝑆2，故出队一定是𝑂(𝑛) B. 入队𝑂(1)，出队的摊还代价是𝑂(1)\nC. 无法用两个栈模拟队列D. 需要三个栈才能模拟",
+    "questionImages": [
+      "assets/questions/3-12-q-1.webp"
+    ],
+    "sourcePage": 26
+  },
+  {
+    "id": "3-13",
+    "chapterName": "栈与队列",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "3-13. 辨析：「栈和队列都是线性表，所以它们的存储结构也只能和线性表一样。」",
+    "questionImages": [
+      "assets/questions/3-13-q-1.webp"
+    ],
+    "sourcePage": 27
+  },
+  {
+    "id": "3-14",
+    "chapterName": "栈与队列",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "3-14. ★辨析：「链式栈没有容量上限、不会上溢，所以总是优于顺序栈。」从时\n间和空间两方面比较二者。",
+    "questionImages": [
+      "assets/questions/3-14-q-1.webp"
+    ],
+    "sourcePage": 27
+  },
+  {
+    "id": "3-15",
+    "chapterName": "栈与队列",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "3-15. ★简答：为什么循环队列中front == rear 既可能表示空、也可能表示满？\n列举至少两种区分办法并比较。",
+    "questionImages": [
+      "assets/questions/3-15-q-1.webp"
+    ],
+    "sourcePage": 27
+  },
+  {
+    "id": "3-16",
+    "chapterName": "栈与队列",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "3-16. ★简答：什么是递归？用栈消除递归的一般方法是什么？哪些递归可以不\n用栈就改成循环？",
+    "questionImages": [
+      "assets/questions/3-16-q-1.webp"
+    ],
+    "sourcePage": 28
+  },
+  {
+    "id": "3-17",
+    "chapterName": "栈与队列",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "3-17. 简答：递归改成非递归以后，代价一定变小吗？",
+    "questionImages": [
+      "assets/questions/3-17-q-1.webp"
+    ],
+    "sourcePage": 28
+  },
+  {
+    "id": "3-18",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "3-18. ★写出栈和队列的ADT，并给出顺序栈Push、Pop 的实现（含溢出处理）。",
+    "questionImages": [
+      "assets/questions/3-18-q-1.webp"
+    ],
+    "sourcePage": 29
+  },
+  {
+    "id": "3-19",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "3-19. ★写出循环队列的完整实现（判空、判满、入队、出队、求长度），采用「牺\n牲一格」方案。",
+    "questionImages": [
+      "assets/questions/3-19-q-1.webp"
+    ],
+    "sourcePage": 29
+  },
+  {
+    "id": "3-20",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "3-20. ★设入栈序列固定为1, 2, ⋯, 𝑛，给定一个1..𝑛的排列𝑝，设计算法判断𝑝\n是否为一个合法的出栈序列。分析代价。",
+    "questionImages": [
+      "assets/questions/3-20-q-1.webp"
+    ],
+    "sourcePage": 30
+  },
+  {
+    "id": "3-21",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "3-21. ★写出中缀表达式转后缀表达式的算法，并用它把A + B * C - (D / E +\nF) * G 转成后缀式。",
+    "questionImages": [
+      "assets/questions/3-21-q-1.webp",
+      "assets/questions/3-21-q-2.webp"
+    ],
+    "sourcePage": 30
+  },
+  {
+    "id": "3-22",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "3-22. 写出后缀表达式求值算法，并求A B C * + D E / F + G * - 在A=2, B=3,\nC=4, D=8, E=2, F=1, G=3 时的值。",
+    "questionImages": [
+      "assets/questions/3-22-q-1.webp"
+    ],
+    "sourcePage": 32
+  },
+  {
+    "id": "3-23",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "3-23. ★用栈把下面的递归算法改写成非递归算法，并说明栈中保存了什么。\n\n Hanoi(n, A, B, C)          // 把n 个盘子从A 经B 移到C\n     if n = 0 then return\n     Hanoi(n - 1, A, C, B)\n   输出\"A →C\"\n     Hanoi(n - 1, B, A, C)",
+    "questionImages": [
+      "assets/questions/3-23-q-1.webp"
+    ],
+    "sourcePage": 32
+  },
+  {
+    "id": "3-24",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "3-24. 设计算法用一个数组实现两个栈，使得只有在整个数组真正用完时才发生\n上溢。",
+    "questionImages": [
+      "assets/questions/3-24-q-1.webp"
+    ],
+    "sourcePage": 33
+  },
+  {
+    "id": "3-25",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "3-25. 设计算法判断一个字符序列是否为回文（正读反读相同），要求用栈和队列\n各一个。",
+    "questionImages": [
+      "assets/questions/3-25-q-1.webp"
+    ],
+    "sourcePage": 34
+  },
+  {
+    "id": "3-26",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "3-26. ★算法填空：用两个队列实现一个栈。队列只提供push(x) 入队、pop() 队\n首出队、front() 取队首、empty() 判空（没有求长度的运算）。下面这一版让push\n保持𝑂(1)，把代价放在pop 上；调用pop 的前提是栈非空。补全五个空。\n\n class MyStack\n     queue q1, q2                      // 元素平时都在q1 里\n\n     push(x)\n         ____(1)____\n\n     pop()                             // 弹出最后压入的那个\n         while ____(2)____\n             t ←q1.front();  q1.pop()\n             if ____(3)____  then  r ←t        // 走到最后一个，它就是答案\n             else                  q2.push(t)\n         ____(4)____                   // 让q1 重新成为存元素的那个\n         return r\n\n     empty()\n         return ____(5)____",
+    "questionImages": [
+      "assets/questions/3-26-q-1.webp"
+    ],
+    "sourcePage": 34
+  },
+  {
+    "id": "3-27",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "3-27. 字符串用「重复次数+ 方括号」压缩：k[s] 表示s 重复k 次（𝑘为正整数，\n 可以是多位数），允许嵌套，例如3[d2[c]] 解压为dccdccdcc。设计算法把压缩串\n（保证合法，只含小写字母、数字和方括号）解压，写出基本思想与伪代码，给出\n 2[ab3[c]]d 的解压结果及过程中栈的变化，并分析代价。",
+    "questionImages": [
+      "assets/questions/3-27-q-1.webp"
+    ],
+    "sourcePage": 35
+  },
+  {
+    "id": "3-28",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "3-28. 设计一个栈，除Push、Pop、Top 之外再支持GetMin()（返回栈中最小元素），\n四个操作都是𝑂(1)。(1) 描述内部数据结构，写出Push、Pop、GetMin；(2) 若辅\n助栈只在新元素不大于当前最小时才压入，说明比较为什么必须用≤而不能用\n<，用Push(3)、Push(3)、Pop() 这一串操作说明。",
+    "questionImages": [
+      "assets/questions/3-28-q-1.webp"
+    ],
+    "sourcePage": 36
+  },
+  {
+    "id": "3-29",
+    "chapterName": "栈与队列",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "3-29. 直方图由𝑛根宽为1 的柱子组成，高度依次为ℎ0, ⋯, ℎ𝑛−1（非负整数）。求\n直方图中能放下的最大矩形面积。(1) 写出𝑂(𝑛) 算法的基本思想和伪代码；(2)\n对ℎ= [2, 4, 3, 5, 1, 3, 3] 写出栈的变化过程和答案。",
+    "questionImages": [
+      "assets/questions/3-29-q-1.webp"
+    ],
+    "sourcePage": 37
+  },
+  {
+    "id": "3-30",
+    "chapterName": "栈与队列",
+    "type": "数学证明",
+    "important": true,
+    "question": "3-30. ★证明：𝑛个元素按1, 2, ⋯, 𝑛顺序入栈，可能的出栈序列共𝐶𝑛 =\n𝑛+1𝐶𝑛1  2𝑛种。",
+    "questionImages": [
+      "assets/questions/3-30-q-1.webp"
+    ],
+    "sourcePage": 38
+  },
+  {
+    "id": "3-31",
+    "chapterName": "栈与队列",
+    "type": "数学证明",
+    "important": true,
+    "question": "3-31. ★证明：排列𝑝1𝑝2 ⋯𝑝𝑛是入栈序列1, 2, ⋯, 𝑛的合法出栈序列，当且仅\n当不存在下标𝑖< 𝑗< 𝑘使𝑝𝑗< 𝑝𝑘< 𝑝𝑖。",
+    "questionImages": [
+      "assets/questions/3-31-q-1.webp"
+    ],
+    "sourcePage": 38
+  },
+  {
+    "id": "3-32",
+    "chapterName": "栈与队列",
+    "type": "数学证明",
+    "important": false,
+    "question": "3-32. 证明循环队列中「元素个数= (𝑟𝑒𝑎𝑟−𝑓𝑟𝑜𝑛𝑡+ 𝑀) mod 𝑀」对rear 是\n否绕回都成立。",
+    "questionImages": [
+      "assets/questions/3-32-q-1.webp"
+    ],
+    "sourcePage": 39
+  },
+  {
+    "id": "3-33",
+    "chapterName": "栈与队列",
+    "type": "数学证明",
+    "important": true,
+    "question": "3-33. ★用I 表示一次入栈、O 表示一次出栈。一个从空栈开始、到空栈结束的操\n作过程可以写成一个由I、O 组成的序列（例如IOIO 合法，IOOI 非法）。(1) 给出序\n列合法的充要条件并说明理由；(2) 证明：对元素互不相同的输入，两个不同的合\n法操作序列不可能产生相同的输出序列；(3) 长度为2𝑛的合法序列共有多少个？",
+    "questionImages": [
+      "assets/questions/3-33-q-1.webp"
+    ],
+    "sourcePage": 39
+  },
+  {
+    "id": "4-1",
+    "chapterName": "字符串",
+    "type": "填空题",
+    "important": false,
+    "question": "4-1. 字符串是由____ 组成的有限序列，串中字符的个数称为串的____。不含任何\n字符的串称为____，它的长度为____；由一个或多个空格组成的串称为____，它\n的长度____。",
+    "questionImages": [
+      "assets/questions/4-1-q-1.webp"
+    ],
+    "sourcePage": 41
+  },
+  {
+    "id": "4-2",
+    "chapterName": "字符串",
+    "type": "填空题",
+    "important": false,
+    "question": "4-2. 串S = \"abcaabcab\" 的长度是____，它的所有真前缀中最长且同时也是真后\n缀的那一个是____。",
+    "questionImages": [
+      "assets/questions/4-2-q-1.webp"
+    ],
+    "sourcePage": 41
+  },
+  {
+    "id": "4-3",
+    "chapterName": "字符串",
+    "type": "填空题",
+    "important": false,
+    "question": "4-3. 设目标串长𝑛、模式串长𝑚。朴素（Brute Force）模式匹配算法的最坏时间\n代价是____，KMP 算法的时间代价是____，其中求特征向量需____、匹配过程\n需____。",
+    "questionImages": [
+      "assets/questions/4-3-q-1.webp"
+    ],
+    "sourcePage": 41
+  },
+  {
+    "id": "4-4",
+    "chapterName": "字符串",
+    "type": "填空题",
+    "important": true,
+    "question": "4-4. ★模式P = \"abaabcaba\"（下标从0）的未优化特征向量（next 数组，约定\nnext[0] = -1）是____。",
+    "questionImages": [
+      "assets/questions/4-4-q-1.webp"
+    ],
+    "sourcePage": 41
+  },
+  {
+    "id": "4-5",
+    "chapterName": "字符串",
+    "type": "填空题",
+    "important": true,
+    "question": "4-5. ★模式P = \"ababab\"（下标从0）的未优化next 数组是____，优化后的next\n数组是____。",
+    "questionImages": [
+      "assets/questions/4-5-q-1.webp",
+      "assets/questions/4-5-q-2.webp"
+    ],
+    "sourcePage": 41
+  },
+  {
+    "id": "4-6",
+    "chapterName": "字符串",
+    "type": "填空题",
+    "important": true,
+    "question": "4-6. ★设非空串𝑆长𝑛，其整串的最长公共真前后缀长度为𝑓。则𝑆的最小循环\n节长度是____；𝑆由该循环节至少重复两次构成的充要条件是____。",
+    "questionImages": [
+      "assets/questions/4-6-q-1.webp"
+    ],
+    "sourcePage": 42
+  },
+  {
+    "id": "4-7",
+    "chapterName": "字符串",
+    "type": "填空题",
+    "important": false,
+    "question": "4-7. 把一个串分割成若干子串，使每个子串都是回文。s = \"abacdcabba\" 最少需\n要分割____ 次，一种最优分法是____。",
+    "questionImages": [
+      "assets/questions/4-7-q-1.webp"
+    ],
+    "sourcePage": 42
+  },
+  {
+    "id": "4-8",
+    "chapterName": "字符串",
+    "type": "选择题",
+    "important": false,
+    "question": "4-8. 下列关于串的叙述错误的是（　）。A. 空串是任意串的子串B. 空格串的长度\n等于其中空格的个数C. 长度为𝑛的串，按起止位置计数（相同内容重复计）的非\n空子串个数为𝑛(𝑛+1) D. 两个串相等，只要求它们包含的字符集合相同               2",
+    "questionImages": [
+      "assets/questions/4-8-q-1.webp"
+    ],
+    "sourcePage": 42
+  },
+  {
+    "id": "4-9",
+    "chapterName": "字符串",
+    "type": "选择题",
+    "important": true,
+    "question": "4-9. ★模式P = \"aaab\" 的未优化next 数组是（　）。A. -1 0 1 2 　B. -1 0 0 0\n　C. 0 1 2 3 　D. -1 1 2 3",
+    "questionImages": [
+      "assets/questions/4-9-q-1.webp"
+    ],
+    "sourcePage": 43
+  },
+  {
+    "id": "4-10",
+    "chapterName": "字符串",
+    "type": "选择题",
+    "important": true,
+    "question": "4-10. ★用KMP 匹配时，若模式在位置𝑖处失配且next[i] = -1，则下一步应当\n（　）。A. 模式右移一位，目标下标回退到本趟起点加一B. 模式整体右移𝑖+ 1 位，\n 目标下标前进一格，从P[0] 重新比C. 目标下标回退到0 D. 匹配失败，算法结束",
+    "questionImages": [
+      "assets/questions/4-10-q-1.webp"
+    ],
+    "sourcePage": 43
+  },
+  {
+    "id": "4-11",
+    "chapterName": "字符串",
+    "type": "选择题",
+    "important": false,
+    "question": "4-11. 用朴素算法在𝑇= \"aaaaaaaaab\"（9 个a 加1 个b，长10）中匹配𝑃=\n\"aaab\"（长4），字符比较的总次数是（　）。A. 10 　B. 24 　C. 28 　D. 40",
+    "questionImages": [
+      "assets/questions/4-11-q-1.webp"
+    ],
+    "sourcePage": 43
+  },
+  {
+    "id": "4-12",
+    "chapterName": "字符串",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "4-12. 辨析：「串是一种特殊的线性表，所以线性表的所有算法都能直接用在串\n上。」",
+    "questionImages": [
+      "assets/questions/4-12-q-1.webp"
+    ],
+    "sourcePage": 43
+  },
+  {
+    "id": "4-13",
+    "chapterName": "字符串",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "4-13. ★简答：KMP 算法为什么能做到𝑂(𝑛+ 𝑚)？它省掉的究竟是什么？",
+    "questionImages": [
+      "assets/questions/4-13-q-1.webp"
+    ],
+    "sourcePage": 43
+  },
+  {
+    "id": "4-14",
+    "chapterName": "字符串",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "4-14. ★简答：未优化的next 与优化后的next 有什么区别？为什么优化后会出\n现−1？",
+    "questionImages": [
+      "assets/questions/4-14-q-1.webp"
+    ],
+    "sourcePage": 44
+  },
+  {
+    "id": "4-15",
+    "chapterName": "字符串",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "4-15. 简答：原书的朴素匹配算法返回值有一处差1 的错误，说说这类错误为什\n么难被发现。",
+    "questionImages": [
+      "assets/questions/4-15-q-1.webp"
+    ],
+    "sourcePage": 44
+  },
+  {
+    "id": "4-16",
+    "chapterName": "字符串",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "4-16. 简答：实现my_memcpy(void* dst, const void* src, size_t n) 时，若两块\n内存重叠会发生什么？分src < dst < src + n 与dst < src < dst + n 两种情形\n说明正确做法。",
+    "questionImages": [
+      "assets/questions/4-16-q-1.webp"
+    ],
+    "sourcePage": 44
+  },
+  {
+    "id": "4-17",
+    "chapterName": "字符串",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "4-17. ★设S = \"abaabab\"（下标从0）。(1) 按字典序列出S 的全部不同非空子串，\n并说明共有多少个；(2) 求S 的未优化next 数组和优化后的next 数组。",
+    "questionImages": [
+      "assets/questions/4-17-q-1.webp"
+    ],
+    "sourcePage": 45
+  },
+  {
+    "id": "4-18",
+    "chapterName": "字符串",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "4-18. ★写出求未优化特征向量（next 数组）的算法，并说明其时间代价。",
+    "questionImages": [
+      "assets/questions/4-18-q-1.webp"
+    ],
+    "sourcePage": 46
+  },
+  {
+    "id": "4-19",
+    "chapterName": "字符串",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "4-19. ★写出KMP 匹配算法（利用已求出的next 向量），并分析其代价。",
+    "questionImages": [
+      "assets/questions/4-19-q-1.webp"
+    ],
+    "sourcePage": 46
+  },
+  {
+    "id": "4-20",
+    "chapterName": "字符串",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "4-20. ★对模式P = \"abaabcac\"，求它的未优化next 与优化next；并用KMP\n在𝑇= \"abaabaabcac\" 中匹配，写出每一趟的失配位置与右移位数。",
+    "questionImages": [
+      "assets/questions/4-20-q-1.webp"
+    ],
+    "sourcePage": 47
+  },
+  {
+    "id": "4-21",
+    "chapterName": "字符串",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "4-21. ★变种应用：给定串𝑆（长𝑛），设计𝑂(𝑛) 算法求它的最小循环节，并判\n断𝑆是否由该循环节至少重复两次构成。",
+    "questionImages": [
+      "assets/questions/4-21-q-1.webp"
+    ],
+    "sourcePage": 47
+  },
+  {
+    "id": "4-22",
+    "chapterName": "字符串",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "4-22. 变种应用：设计算法判断串𝐵是否为串𝐴的循环移位（如\"cdeab\" 是\"abcde\"\n的循环移位），要求𝑂(|𝐴| + |𝐵|)。",
+    "questionImages": [
+      "assets/questions/4-22-q-1.webp"
+    ],
+    "sourcePage": 48
+  },
+  {
+    "id": "4-23",
+    "chapterName": "字符串",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "4-23. 变种应用：若某个子串形如𝐴𝐴（非空串𝐴紧接着再出现一次，如\"bcbc\"、\n\"aa\"），称它为平方子串。设计算法判断串𝑆（长𝑛）是否含平方子串；若含，返\n回起点最小的那个的起点和|𝐴|。要求最坏𝑂(𝑛2)。",
+    "questionImages": [
+      "assets/questions/4-23-q-1.webp"
+    ],
+    "sourcePage": 49
+  },
+  {
+    "id": "4-24",
+    "chapterName": "字符串",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "4-24. 对长为𝑛的串𝑆，记𝑆[0..𝐿−1] 为长𝐿的前缀，occ(𝐿) 为它在𝑆中出现\n的次数（允许重叠）。设计尽可能快的算法求max1≤𝐿≤𝑛𝐿⋅occ(𝐿)，写出思想\n与代价，并对S = \"abababab\" 给出各个𝐿的occ(𝐿) 和答案。",
+    "questionImages": [
+      "assets/questions/4-24-q-1.webp"
+    ],
+    "sourcePage": 49
+  },
+  {
+    "id": "4-25",
+    "chapterName": "字符串",
+    "type": "数学证明",
+    "important": true,
+    "question": "4-25. ★证明KMP 匹配过程的时间代价为𝑂(𝑛)（𝑛为目标串长度）。",
+    "questionImages": [
+      "assets/questions/4-25-q-1.webp"
+    ],
+    "sourcePage": 50
+  },
+  {
+    "id": "4-26",
+    "chapterName": "字符串",
+    "type": "数学证明",
+    "important": true,
+    "question": "4-26. ★设非空串𝑆长𝑛，𝑓是𝑆的最长公共真前后缀长度。证明：𝑝= 𝑛−𝑓\n是𝑆的最小周期，且𝑆能写成某个串至少重复两次（𝑆= 𝑤𝑘，𝑘≥2）当且仅\n当𝑓> 0 且𝑝整除𝑛。",
+    "questionImages": [
+      "assets/questions/4-26-q-1.webp"
+    ],
+    "sourcePage": 51
+  },
+  {
+    "id": "4-27",
+    "chapterName": "字符串",
+    "type": "数学证明",
+    "important": false,
+    "question": "4-27. 证明：求next 数组的算法（4-18）时间代价为𝑂(𝑚)。",
+    "questionImages": [
+      "assets/questions/4-27-q-1.webp"
+    ],
+    "sourcePage": 51
+  },
+  {
+    "id": "5-1",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-1. 二叉树是结点的有限集合，它或者为空，或者由一个根结点及两棵互不相交\n的、分别称为____ 和____ 的二叉树组成。含3 个结点的二叉树共有____ 种不同\n形态。",
+    "questionImages": [
+      "assets/questions/5-1-q-1.webp"
+    ],
+    "sourcePage": 53
+  },
+  {
+    "id": "5-2",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-2. 二叉树的第𝑖层（根为第0 层）最多有____ 个结点；深度为𝑘的二叉树最多\n有____ 个结点；有𝑛个结点的完全二叉树，其高度（层数）为____。",
+    "questionImages": [
+      "assets/questions/5-2-q-1.webp"
+    ],
+    "sourcePage": 53
+  },
+  {
+    "id": "5-3",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": true,
+    "question": "5-3. ★在任意一棵非空二叉树中，若叶结点数为𝑛0、度为2 的结点数为𝑛2，则\n它们的关系是____。若该树共有𝑛个结点、度为1 的结点𝑛1 个，则𝑛= ____。",
+    "questionImages": [
+      "assets/questions/5-3-q-1.webp"
+    ],
+    "sourcePage": 53
+  },
+  {
+    "id": "5-4",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-4. 完全二叉树按层次顺序从0 开始编号存入一维数组，则结点𝑖的父结点编号\n是____，左孩子是____，右孩子是____；结点𝑖有左孩子的条件是____。",
+    "questionImages": [
+      "assets/questions/5-4-q-1.webp"
+    ],
+    "sourcePage": 53
+  },
+  {
+    "id": "5-5",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-5. 有𝑛（𝑛≥2）个结点的完全二叉树，最后一个分支（非叶）结点的编号是\n____，叶结点共有____ 个。",
+    "questionImages": [
+      "assets/questions/5-5-q-1.webp"
+    ],
+    "sourcePage": 53
+  },
+  {
+    "id": "5-6",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-6. 某二叉树的前序序列为ABDECFG，中序序列为DBEAFCG，则它的后序序列为\n____，层次序列为____。",
+    "questionImages": [
+      "assets/questions/5-6-q-1.webp"
+    ],
+    "sourcePage": 53
+  },
+  {
+    "id": "5-7",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": true,
+    "question": "5-7. ★含𝑛个叶结点（权值互不相同）的Huffman 树共有____ 个结点，其中度\n为2 的结点____ 个，没有度为____ 的结点。",
+    "questionImages": [
+      "assets/questions/5-7-q-1.webp"
+    ],
+    "sourcePage": 54
+  },
+  {
+    "id": "5-8",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-8. 二叉搜索树的____ 遍历序列是一个递增有序序列；在一棵含𝑛个结点的二\n叉搜索树中检索一个关键码，最好情况比较____ 次，最坏____ 次。",
+    "questionImages": [
+      "assets/questions/5-8-q-1.webp"
+    ],
+    "sourcePage": 54
+  },
+  {
+    "id": "5-9",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-9. 把下面这棵二叉树扩充（每棵空子树换成一个外部结点，记为Φ）后，扩充\n二叉树的前序序列是____，其中外部结点共____ 个；反过来，任给一个扩充二叉\n树的前序序列，____（能／不能）唯一确定原二叉树。\n\n         8\n       /   \\\n      4     9\n     / \\     \\\n    2   6     7\n       /\n      5",
+    "questionImages": [
+      "assets/questions/5-9-q-1.webp"
+    ],
+    "sourcePage": 54
+  },
+  {
+    "id": "5-10",
+    "chapterName": "二叉树",
+    "type": "填空题",
+    "important": false,
+    "question": "5-10. 2-3 树满足：(1) 每个内部结点有2 个或3 个孩子；(2) 所有叶结点到根的路\n径长度相同。若一棵2-3 树有10 个叶结点，它的内部结点可能有____ 个（写出\n全部可能）。",
+    "questionImages": [
+      "assets/questions/5-10-q-1.webp"
+    ],
+    "sourcePage": 54
+  },
+  {
+    "id": "5-11",
+    "chapterName": "二叉树",
+    "type": "选择题",
+    "important": false,
+    "question": "5-11. 一棵完全二叉树有1001 个结点，其中叶结点的个数是（　）。A. 250 　B.\n500 　C. 501 　D. 505",
+    "questionImages": [
+      "assets/questions/5-11-q-1.webp"
+    ],
+    "sourcePage": 55
+  },
+  {
+    "id": "5-12",
+    "chapterName": "二叉树",
+    "type": "选择题",
+    "important": false,
+    "question": "5-12. 已知二叉树的前序和后序序列，下列说法正确的是（　）。A. 能唯一确定这\n棵二叉树B. 不能唯一确定，但能确定它的中序序列C. 不能唯一确定这棵二叉树\nD. 只有当树中没有度为1 的结点时才不能确定",
+    "questionImages": [
+      "assets/questions/5-12-q-1.webp"
+    ],
+    "sourcePage": 55
+  },
+  {
+    "id": "5-13",
+    "chapterName": "二叉树",
+    "type": "选择题",
+    "important": true,
+    "question": "5-13. ★在下列关键码序列中，可以构成最小堆的是（　）。A. (12, 70, 33, 65,\n24, 56) 　B. (12, 24, 33, 65, 70, 56) C. (70, 65, 56, 33, 24, 12) 　D. (12,\n24, 33, 65, 70, 30)",
+    "questionImages": [
+      "assets/questions/5-13-q-1.webp"
+    ],
+    "sourcePage": 55
+  },
+  {
+    "id": "5-14",
+    "chapterName": "二叉树",
+    "type": "选择题",
+    "important": false,
+    "question": "5-14. 在二叉搜索树中删除一个既有左子树又有右子树的结点，下列做法能保持\n二叉搜索树性质的是（　）。A. 用它的左孩子顶替B. 用它的右孩子顶替C. 用它\n在中序序列中的前驱（左子树中最大者）顶替D. 直接置空",
+    "questionImages": [
+      "assets/questions/5-14-q-1.webp"
+    ],
+    "sourcePage": 55
+  },
+  {
+    "id": "5-15",
+    "chapterName": "二叉树",
+    "type": "选择题",
+    "important": false,
+    "question": "5-15. 关于Huffman 编码，下列说法错误的是（　）。A. 它是一种前缀编码，任何\n字符的编码都不是另一个字符编码的前缀B. 权值较大的字符，其码长不会比权\n值较小的字符更长C. Huffman 树的形态可能不唯一，但带权路径长度WPL 一\n定唯一D. Huffman 编码是定长编码",
+    "questionImages": [
+      "assets/questions/5-15-q-1.webp"
+    ],
+    "sourcePage": 56
+  },
+  {
+    "id": "5-16",
+    "chapterName": "二叉树",
+    "type": "选择题",
+    "important": false,
+    "question": "5-16. 用筛选法对𝑛个元素的无序序列建最小堆，时间代价的渐进紧确界是（　）。\nA. Θ(𝑛) 　B. Θ(𝑛log 𝑛) 　C. Θ(log 𝑛) 　D. Θ(𝑛2)",
+    "questionImages": [
+      "assets/questions/5-16-q-1.webp"
+    ],
+    "sourcePage": 56
+  },
+  {
+    "id": "5-17",
+    "chapterName": "二叉树",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "5-17. 辨析：「二叉树就是度不超过2 的树。」",
+    "questionImages": [
+      "assets/questions/5-17-q-1.webp"
+    ],
+    "sourcePage": 56
+  },
+  {
+    "id": "5-18",
+    "chapterName": "二叉树",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "5-18. ★简答：为什么「前序+ 中序」或「后序+ 中序」能唯一确定一棵二叉树，\n而「前序+ 后序」不能？",
+    "questionImages": [
+      "assets/questions/5-18-q-1.webp"
+    ],
+    "sourcePage": 56
+  },
+  {
+    "id": "5-19",
+    "chapterName": "二叉树",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "5-19. ★某二叉树的9 个结点标识为A～I，三种遍历序列都有残缺（_ 表示缺失\n的一位）：\n前序  A B _ E G _ F _ I\n中序  D _ G E A C H _ I\n后序  _ G E B H _ F C A\n\n  补全三个序列，并画出这棵二叉树。",
+    "questionImages": [
+      "assets/questions/5-19-q-1.webp",
+      "assets/questions/5-19-q-2.webp"
+    ],
+    "sourcePage": 56
+  },
+  {
+    "id": "5-20",
+    "chapterName": "二叉树",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "5-20. ★简答：堆和二叉搜索树都是二叉树，它们的「有序性」有什么本质区别？\n各适合什么场合？",
+    "questionImages": [
+      "assets/questions/5-20-q-1.webp"
+    ],
+    "sourcePage": 57
+  },
+  {
+    "id": "5-21",
+    "chapterName": "二叉树",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "5-21. 简答：非递归的二叉树遍历为什么需要栈？层次遍历为什么用队列？",
+    "questionImages": [
+      "assets/questions/5-21-q-1.webp"
+    ],
+    "sourcePage": 58
+  },
+  {
+    "id": "5-22",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-22. ★用递归写出下列算法，并分析代价：(1) 求二叉树的高度；(2) 求叶结点\n个数；(3) 交换所有结点的左右子树（求镜像）；(4) 判断两棵二叉树是否相同。",
+    "questionImages": [
+      "assets/questions/5-22-q-1.webp"
+    ],
+    "sourcePage": 58
+  },
+  {
+    "id": "5-23",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-23. ★算法填空：下面是二叉树中序遍历的非递归框架，补全空缺处。\n\n InOrder(root)\n     S ←空栈\n     p ←root\n     while p ≠nullptr or not S.Empty()\n         if p ≠nullptr\n             S.Push(p)\n             p ←____(➀)____\n         else\n             p ←S.Pop()\n       访问p\n             p ←____(➁)____\n   结束",
+    "questionImages": [
+      "assets/questions/5-23-q-1.webp"
+    ],
+    "sourcePage": 59
+  },
+  {
+    "id": "5-24",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-24. ★给定关键码序列𝐾= {50, 19, 35, 55, 20, 5, 100, 52, 88, 53, 92}，(1)\n按此次序依次插入，画出生成的二叉搜索树；(2) 写出中序序列；(3) 删除结点50，\n画出删除后的树并说明步骤。",
+    "questionImages": [
+      "assets/questions/5-24-q-1.webp"
+    ],
+    "sourcePage": 60
+  },
+  {
+    "id": "5-25",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-25. ★用值为1 到5 的5 个结点建二叉搜索树。(1) 若要求树上每个结点的左、\n右子树结点数之差不超过1，共有多少棵？(2) 若把要求换成每个结点的左子树结\n点数不少于右子树，又有多少棵？",
+    "questionImages": [
+      "assets/questions/5-25-q-1.webp"
+    ],
+    "sourcePage": 61
+  },
+  {
+    "id": "5-26",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-26. ★已知字符集{𝑎, 𝑏, 𝑐, 𝑑, 𝑒, 𝑓, 𝑔, ℎ} 的使用频率依次为5、29、7、8、14、\n23、3、11（合计100）。(1) 构造Huffman 树；(2) 给出各字符的Huffman 编码；\n(3) 求带权路径长度WPL 与平均码长；(4) 对码流000110110 译码。",
+    "questionImages": [
+      "assets/questions/5-26-q-1.webp"
+    ],
+    "sourcePage": 62
+  },
+  {
+    "id": "5-27",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-27. ★字符集{𝐴, 𝐵, 𝐶, 𝐷} 的出现频率为{50%, 25%, 12.5%, 12.5%}。(1)\n构造Huffman 树，给出各字符的编码与平均码长，并与定长编码比较；(2) 若𝐷\n的频率上升、其余三个字符的相对比例不变，而编码方式仍用第(1) 问算出的那\n一套，𝐷的频率升到多少时，这套Huffman 编码反而不如定长编码省？",
+    "questionImages": [
+      "assets/questions/5-27-q-1.webp"
+    ],
+    "sourcePage": 63
+  },
+  {
+    "id": "5-28",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-28. ★给定序列𝐾= {53, 17, 78, 9, 45, 65, 87, 23, 31}，(1) 用筛选法把它\n建成最小堆，写出每一步；(2) 在结果堆上删除最小元，写出调整后的数组；(3)\n回到(1) 的建堆结果，插入元素20，写出SiftUp 调整后的数组。",
+    "questionImages": [
+      "assets/questions/5-28-q-1.webp"
+    ],
+    "sourcePage": 64
+  },
+  {
+    "id": "5-29",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "5-29. ★一棵𝑁个结点的二叉树用两个一维数组存储：L[i]、R[i] 分别是结点𝑖\n 的左、右孩子编号，为0 表示空（结点从1 开始编号，L[0] = R[0] = 0，根的编\n 号已知）。(1) 设计算法由L、R 生成父指针数组T，使T[i] 为结点𝑖的父结点编号\n（根记0）；(2) 设计算法判断结点𝑈与𝑉是否在同一条从根到叶的路径上（即其\n 中一个是另一个的祖先）。分析两问的代价。",
+    "questionImages": [
+      "assets/questions/5-29-q-1.webp"
+    ],
+    "sourcePage": 66
+  },
+  {
+    "id": "5-30",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "5-30. 二叉树的结点存整数（可正可负）。从某个结点出发、只沿孩子方向往下走、\n在它自己或它的某个后代处结束，经过的结点序列称为一条向下路径（不必从根\n开始，也不必在叶结束）。给定整数target，设计算法统计结点值之和等于target\n的向下路径条数，并分析代价。对下面这棵树、target = 3，答案是多少？\n\n             4\n           /   \\\n          2     -1\n         / \\    / \\\n        1  -3  5   2\n       /        \\\n      3         -2",
+    "questionImages": [
+      "assets/questions/5-30-q-1.webp"
+    ],
+    "sourcePage": 67
+  },
+  {
+    "id": "5-31",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "5-31. 二叉搜索树的结点含key、left、right、parent 四个域（关键码互不相同）。\n不用栈、不用递归、不在结点上加标记，设计算法返回第𝑘小的关键码所在的结\n点（𝑘超过结点数时返回空），并分析时间代价。",
+    "questionImages": [
+      "assets/questions/5-31-q-1.webp"
+    ],
+    "sourcePage": 68
+  },
+  {
+    "id": "5-32",
+    "chapterName": "二叉树",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "5-32. 求二叉树中两个结点u、v 的最近公共祖先（结点可以是自己的祖先；u、v\n都在树中）。(1) 用三叉链表（结点另有parent 域）存储时，给出时间𝑂(ℎ)、额外\n空间𝑂(1) 的算法；(2) 用二叉链表（只有left、right）存储时，给出时间𝑂(𝑛)\n的算法。",
+    "questionImages": [
+      "assets/questions/5-32-q-1.webp"
+    ],
+    "sourcePage": 69
+  },
+  {
+    "id": "5-33",
+    "chapterName": "二叉树",
+    "type": "数学证明",
+    "important": true,
+    "question": "5-33. ★证明：非空二叉树中叶结点数𝑛0 与度为2 的结点数𝑛2 满足𝑛0 = 𝑛2+1。",
+    "questionImages": [
+      "assets/questions/5-33-q-1.webp"
+    ],
+    "sourcePage": 70
+  },
+  {
+    "id": "5-34",
+    "chapterName": "二叉树",
+    "type": "数学证明",
+    "important": true,
+    "question": "5-34. ★证明：用筛选法把𝑛个元素的无序序列建成堆，时间代价为𝑂(𝑛)。",
+    "questionImages": [
+      "assets/questions/5-34-q-1.webp"
+    ],
+    "sourcePage": 70
+  },
+  {
+    "id": "5-35",
+    "chapterName": "二叉树",
+    "type": "数学证明",
+    "important": false,
+    "question": "5-35. 证明：𝑛个结点的不同二叉树形态共有𝐶𝑛= 𝑛+1𝐶𝑛1  2𝑛种。",
+    "questionImages": [
+      "assets/questions/5-35-q-1.webp"
+    ],
+    "sourcePage": 71
+  },
+  {
+    "id": "5-36",
+    "chapterName": "二叉树",
+    "type": "数学证明",
+    "important": false,
+    "question": "5-36. 证明：𝑛个结点的完全二叉树高度（层数）为⌈log2(𝑛+ 1)⌉。",
+    "questionImages": [
+      "assets/questions/5-36-q-1.webp"
+    ],
+    "sourcePage": 71
+  },
+  {
+    "id": "6-1",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": false,
+    "question": "6-1. 树是𝑛（𝑛≥1）个结点的有限集合。其中有且仅有一个____ 结点，其余结\n点可分为𝑚个____ 的有限集合，每一个又都是一棵树，称为根的____。𝑚棵互\n不相交的树的集合称为____。",
+    "questionImages": [
+      "assets/questions/6-1-q-1.webp"
+    ],
+    "sourcePage": 73
+  },
+  {
+    "id": "6-2",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": false,
+    "question": "6-2. 结点的度是指____；树的度是指____。若一棵树中度为𝑖的结点有𝑛𝑖个（𝑖=\n0, 1, ⋯, 𝑚），则该树的总结点数𝑛= ____，且有𝑛= ____（用度数表示）。",
+    "questionImages": [
+      "assets/questions/6-2-q-1.webp"
+    ],
+    "sourcePage": 73
+  },
+  {
+    "id": "6-3",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": false,
+    "question": "6-3. 一棵树的嵌套括号表示为(A(B(E)(F))(C)(D(G(H))))。该树共有____ 个结点，\n树的度是____，叶结点有____ 个，度为1 的结点有____ 个。",
+    "questionImages": [
+      "assets/questions/6-3-q-1.webp"
+    ],
+    "sourcePage": 73
+  },
+  {
+    "id": "6-4",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": true,
+    "question": "6-4. ★森林转换成二叉树的规则是：____ 作为二叉树的左子树，____ 作为右子\n树。转换后，二叉树根结点的右子树对应原森林中的____。",
+    "questionImages": [
+      "assets/questions/6-4-q-1.webp"
+    ],
+    "sourcePage": 74
+  },
+  {
+    "id": "6-5",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": true,
+    "question": "6-5. ★按先根次序周游森林，等同于按____ 次序周游它对应的二叉树；按后根\n次序周游森林，等同于按____ 次序周游它对应的二叉树。二叉树的前序、中序、\n后序三种深度优先遍历中，不能保证与森林的先根或后根任何一种相同的是____\n遍历。",
+    "questionImages": [
+      "assets/questions/6-5-q-1.webp"
+    ],
+    "sourcePage": 74
+  },
+  {
+    "id": "6-6",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": true,
+    "question": "6-6. ★完全𝐾叉树按层次从0 开始编号，则结点𝑖的第𝑗个孩子（1 ≤𝑗≤𝐾）\n编号为____，其父结点编号为____；第𝑖层最多有____ 个结点；高度为ℎ层且各\n层全满的𝐾叉树共有____ 个结点。",
+    "questionImages": [
+      "assets/questions/6-6-q-1.webp"
+    ],
+    "sourcePage": 74
+  },
+  {
+    "id": "6-7",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": false,
+    "question": "6-7. 一棵有𝑛个结点的𝐾叉树，采用「每个结点固定𝐾个孩子指针」的链式存\n储时，其中空指针的个数为____。",
+    "questionImages": [
+      "assets/questions/6-7-q-1.webp"
+    ],
+    "sourcePage": 74
+  },
+  {
+    "id": "6-8",
+    "chapterName": "树",
+    "type": "填空题",
+    "important": false,
+    "question": "6-8. 并查集（等价类）用____ 表示法存储，Find 操作沿____ 找到____，两个元\n素属于同一集合当且仅当____。两条常用的优化是____ 和____。",
+    "questionImages": [
+      "assets/questions/6-8-q-1.webp"
+    ],
+    "sourcePage": 74
+  },
+  {
+    "id": "6-9",
+    "chapterName": "树",
+    "type": "选择题",
+    "important": false,
+    "question": "6-9. 一棵度为4 的树中，度为1、2、3、4 的结点分别有4、2、1、1 个，则叶结\n点有（　）个。A. 6 　B. 7 　C. 8 　D. 9",
+    "questionImages": [
+      "assets/questions/6-9-q-1.webp"
+    ],
+    "sourcePage": 74
+  },
+  {
+    "id": "6-10",
+    "chapterName": "树",
+    "type": "选择题",
+    "important": true,
+    "question": "6-10. ★森林𝐹中有3 棵树，结点数分别为𝑛1, 𝑛2, 𝑛3。把𝐹转换成二叉树𝐵后，\n𝐵的根结点的右子树上的结点个数是（　）。A. 𝑛1 　B. 𝑛1 + 𝑛2 　C. 𝑛2 + 𝑛3\n　D. 𝑛3",
+    "questionImages": [
+      "assets/questions/6-10-q-1.webp"
+    ],
+    "sourcePage": 75
+  },
+  {
+    "id": "6-11",
+    "chapterName": "树",
+    "type": "选择题",
+    "important": false,
+    "question": "6-11. 已知一棵树的先根序列为ABCDEF、后根序列为CBEFDA，则下列说法正确的\n是（　）。A. C 是B 的孩子，E、F 都是D 的孩子B. A 有三个孩子C. 该树的度为3\nD. 该树的层次序列为ABCDEF",
+    "questionImages": [
+      "assets/questions/6-11-q-1.webp"
+    ],
+    "sourcePage": 75
+  },
+  {
+    "id": "6-12",
+    "chapterName": "树",
+    "type": "选择题",
+    "important": true,
+    "question": "6-12. ★使用重量权衡合并规则的并查集（不含路径压缩），𝑛个元素任意合并\n后，树的最大高度的渐进紧确界是（　）。A. Θ(1) 　B. Θ(log 𝑛) 　C. Θ(√𝑛)\n　D. Θ(𝑛)",
+    "questionImages": [
+      "assets/questions/6-12-q-1.webp"
+    ],
+    "sourcePage": 75
+  },
+  {
+    "id": "6-13",
+    "chapterName": "树",
+    "type": "选择题",
+    "important": false,
+    "question": "6-13. 对同一片森林，下列两个序列一般不相同的是（　）。A. 森林的先根序列与\n对应二叉树的前序序列B. 森林的后根序列与对应二叉树的中序序列C. 森林的\n层次序列与对应二叉树的层次序列D. 以上三组都相同",
+    "questionImages": [
+      "assets/questions/6-13-q-1.webp"
+    ],
+    "sourcePage": 75
+  },
+  {
+    "id": "6-14",
+    "chapterName": "树",
+    "type": "选择题",
+    "important": false,
+    "question": "6-14. 森林𝐹共有𝑛个结点，其中𝑚个是分支结点（至少有一个孩子）。把𝐹转换\n为二叉树𝑇（长子作左孩子、下一个兄弟作右孩子）后，𝑇中左指针为空的结点\n数和右指针为空的结点数分别是（　）。A. 𝑛−𝑚，𝑚+ 1 　B. 𝑚+ 1，𝑛−𝑚\n　C. 𝑛−𝑚，𝑛−𝑚　D. 𝑚，𝑛−𝑚+ 1",
+    "questionImages": [
+      "assets/questions/6-14-q-1.webp"
+    ],
+    "sourcePage": 76
+  },
+  {
+    "id": "6-15",
+    "chapterName": "树",
+    "type": "选择题",
+    "important": false,
+    "question": "6-15. 把森林𝐹转换成二叉树𝐵(𝐹) 后，若结点𝑢是结点𝑣的父结点的父结点，则\n在原森林中𝑢与𝑣可能是下列哪些关系？（多选）（　）A. 𝑢是𝑣的父结点　B. 𝑢\n与𝑣是兄弟　C. 𝑣的父结点是𝑢的兄弟D. 𝑢的父结点与𝑣的父结点是兄弟　E.\n𝑢是𝑣的父结点的父结点",
+    "questionImages": [
+      "assets/questions/6-15-q-1.webp"
+    ],
+    "sourcePage": 76
+  },
+  {
+    "id": "6-16",
+    "chapterName": "树",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "6-16. 辨析：「因为森林和二叉树可以一一对应，所以它们是同一种数据结构。」",
+    "questionImages": [
+      "assets/questions/6-16-q-1.webp"
+    ],
+    "sourcePage": 76
+  },
+  {
+    "id": "6-17",
+    "chapterName": "树",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "6-17. ★简答：为什么树（森林）没有「中根遍历」？先根、后根与对应二叉树的\n前序、中序为什么会一一对应？",
+    "questionImages": [
+      "assets/questions/6-17-q-1.webp"
+    ],
+    "sourcePage": 77
+  },
+  {
+    "id": "6-18",
+    "chapterName": "树",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "6-18. 简答：比较树的三种链式存储（子结点表、左子/右兄二叉链、父指针表），\n各自擅长什么运算？",
+    "questionImages": [
+      "assets/questions/6-18-q-1.webp"
+    ],
+    "sourcePage": 77
+  },
+  {
+    "id": "6-19",
+    "chapterName": "树",
+    "type": "辨析与简答",
+    "important": true,
+    "question": "6-19. ★并查集的另一种常见存法：数组parent[1..n] 中，非根结点存父结点编\n号，根结点存「−（该集合的元素个数）」。现有10 个元素：\n\n i          1  2  3  4  5  6  7  8  9  10\n parent[i]  3  6 -5  6 -1 -4  3  2  7  9\n\n(1) 画出它表示的森林，写出各等价类；\n(2) 采用重量权衡合并+ 路径压缩，依次执行Union(10, 8)、Union(5, 4)，写出\n  每一步之后的数组；\n(3) 这种存法比6-23 的「parent 加weight 两个数组」好在哪里？",
+    "questionImages": [
+      "assets/questions/6-19-q-1.webp",
+      "assets/questions/6-19-q-2.webp"
+    ],
+    "sourcePage": 77
+  },
+  {
+    "id": "6-20",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "6-20. ★已知森林𝐹由两棵树组成：第一棵的根是A，A 的孩子依次是B、C、D，C\n的孩子是E、F；第二棵的根是G，G 的孩子是H、I，H 的孩子是J。(1) 画出𝐹；(2)\n写出先根、后根、层次三种序列；(3) 画出𝐹对应的二叉树，并写出它的前序、中\n序序列，与(2) 对照。",
+    "questionImages": [
+      "assets/questions/6-20-q-1.webp"
+    ],
+    "sourcePage": 79
+  },
+  {
+    "id": "6-21",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "6-21. ★在「左子/右兄」表示下，写出森林的先根、后根周游算法（递归）和层\n次周游算法（用队列），并分析代价。",
+    "questionImages": [
+      "assets/questions/6-21-q-1.webp"
+    ],
+    "sourcePage": 80
+  },
+  {
+    "id": "6-22",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "6-22. ★算法填空：多叉树的非递归后根周游。设树另提供操作Child(p, k)：返\n回结点p 的第𝑘个孩子（𝑘从1 起），不存在时返回nullptr。栈中每条记录是二\n元组(p, k)，含义是「结点p 接下来该处理它的第𝑘个孩子」。\n\n PostOrder(root)\n     if root = nullptr then return\n     S ←空栈;  S.Push((root, 1))\n     while not S.Empty()\n(p, k) ←S.Pop()\n         c ←Child(p, k)\n         if ____(➀)____\n       访问p\n         else\n             S.Push(____(➁)____)\n             S.Push(____(➂)____)\n\n(1) 补全空缺；(2)➁与➂两句能否交换次序？(3) 设一棵树的根A 有孩子B、C、\n   D，C 有孩子E、F，D 有孩子G。写出访问序列，以及访问E 时栈中的记录（自\n  底向上）；(4) 分析代价。",
+    "questionImages": [
+      "assets/questions/6-22-q-1.webp",
+      "assets/questions/6-22-q-2.webp"
+    ],
+    "sourcePage": 80
+  },
+  {
+    "id": "6-23",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "6-23. ★写出并查集的Find 与Union，要求实现重量权衡合并与路径压缩，并分\n析代价。",
+    "questionImages": [
+      "assets/questions/6-23-q-1.webp"
+    ],
+    "sourcePage": 81
+  },
+  {
+    "id": "6-24",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "6-24. ★设有8 个元素1..8，依次读入等价偶对(1, 2)，(3, 4)，(5, 6)，(7, 8)，\n(2, 4)，(6, 8)，(4, 8)。采用重量权衡合并+ 路径压缩，写出每一步之后的父指\n针数组，并给出最终的等价类。",
+    "questionImages": [
+      "assets/questions/6-24-q-1.webp"
+    ],
+    "sourcePage": 82
+  },
+  {
+    "id": "6-25",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "6-25. ★已知一片森林的带双标记的先根次序表示，写出还原成「左子/右兄」链\n式结构的算法，并对6-20 那片森林给出它的双标记序列。",
+    "questionImages": [
+      "assets/questions/6-25-q-1.webp"
+    ],
+    "sourcePage": 84
+  },
+  {
+    "id": "6-26",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "6-26. 在「左子/右兄」表示下，写出求森林中结点总数与森林高度的算法。",
+    "questionImages": [
+      "assets/questions/6-26-q-1.webp"
+    ],
+    "sourcePage": 85
+  },
+  {
+    "id": "6-27",
+    "chapterName": "树",
+    "type": "算法设计与分析",
+    "important": true,
+    "question": "6-27. ★一棵树的镜面映射指把每个结点的子结点次序反转。输入输出树时常把\n 树转成对应的二叉树，并给只有一个子结点的分支结点补一个虚子结点$，形成\n「伪满二叉树」（每个分支结点恰有两个子结点）；再对这棵二叉树作前序遍历，内\n 部结点标0、叶结点标1，虚结点也输出。现给定这样的前序序列，设计算法输\n 出原树的镜面映射的广度优先（层次）序列。以x0 p0 $1 q0 s0 $1 t1 r1 $1 为\n 例，应输出x r q p t s。",
+    "questionImages": [
+      "assets/questions/6-27-q-1.webp"
+    ],
+    "sourcePage": 85
+  },
+  {
+    "id": "6-28",
+    "chapterName": "树",
+    "type": "数学证明",
+    "important": true,
+    "question": "6-28. ★证明：按先根次序周游森林𝐹得到的序列，等于按前序周游𝐹对应二叉\n树𝐵(𝐹) 得到的序列；按后根次序周游𝐹的序列，等于按中序周游𝐵(𝐹) 的序\n列。",
+    "questionImages": [
+      "assets/questions/6-28-q-1.webp"
+    ],
+    "sourcePage": 87
+  },
+  {
+    "id": "6-29",
+    "chapterName": "树",
+    "type": "数学证明",
+    "important": false,
+    "question": "6-29. 证明：一棵有𝑛个结点的𝐾叉树（每结点固定𝐾个孩子指针），空指针数\n为𝑛(𝐾−1) + 1。",
+    "questionImages": [
+      "assets/questions/6-29-q-1.webp"
+    ],
+    "sourcePage": 87
+  },
+  {
+    "id": "6-30",
+    "chapterName": "树",
+    "type": "数学证明",
+    "important": true,
+    "question": "6-30. ★证明：采用重量权衡合并规则（不含路径压缩）的并查集，任何一棵树\n的高度不超过⌊log2 𝑛⌋+ 1 层。",
+    "questionImages": [
+      "assets/questions/6-30-q-1.webp"
+    ],
+    "sourcePage": 87
+  },
+  {
+    "id": "6-31",
+    "chapterName": "树",
+    "type": "数学证明",
+    "important": false,
+    "question": "6-31. 证明：树中所有结点的度数之和等于结点数减1，即∑𝑖𝑖⋅𝑛𝑖= 𝑛−1。",
+    "questionImages": [
+      "assets/questions/6-31-q-1.webp"
+    ],
+    "sourcePage": 88
+  },
+  {
+    "id": "6-32",
+    "chapterName": "树",
+    "type": "数学证明",
+    "important": true,
+    "question": "6-32. ★满𝑘叉树指每个结点要么是叶结点、要么恰有𝑘个孩子。(1) 证明：非空\n满𝑘叉树若有𝐿个叶结点，则内部结点数为𝐿−1 ；并由此说明𝐿必须满足「(𝑘−1)                                  𝑘−1\n整除(𝐿−1)」。(2) 证明：高度为ℎ层（只有根时ℎ= 1）的满𝑘叉树，结点数\n至少𝑘(ℎ−1) + 1、至多𝑘ℎ−1 ，且两个界都能取到。                      𝑘−1",
+    "questionImages": [
+      "assets/questions/6-32-q-1.webp"
+    ],
+    "sourcePage": 88
+  },
+  {
+    "id": "6-33",
+    "chapterName": "树",
+    "type": "数学证明",
+    "important": false,
+    "question": "6-33. 设𝑢、𝑣是森林𝐹中两个不同的结点。证明：𝑢是𝑣的祖先，当且仅当在先\n根序列中𝑢在𝑣之前、且在后根序列中𝑢在𝑣之后。",
+    "questionImages": [
+      "assets/questions/6-33-q-1.webp"
+    ],
+    "sourcePage": 89
+  },
+  {
+    "id": "mock-1-1",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "1. 抽象数据类型由数据对象、数据关系和____ 三部分组成，其中不包括____。",
+    "questionImages": [
+      "assets/questions/mock-1-1-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-2",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "2. 在长度为100 的顺序表中删除一个元素，等概率下平均需要移动____ 个元素。",
+    "questionImages": [
+      "assets/questions/mock-1-2-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-3",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "3. 容量为10 的循环队列（牺牲一格），front = 7、rear = 2，队中有____ 个元\n 素。",
+    "questionImages": [
+      "assets/questions/mock-1-3-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-4",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "4. 6 个元素依次入栈，可能的出栈序列共____ 种。",
+    "questionImages": [
+      "assets/questions/mock-1-4-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-5",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "5. 模式P = \"abaabab\" 的未优化next 数组是____。",
+    "questionImages": [
+      "assets/questions/mock-1-5-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-6",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "6. 一棵二叉树有20 个叶结点、15 个度为1 的结点，则它共有____ 个结点。",
+    "questionImages": [
+      "assets/questions/mock-1-6-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-7",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "7. 有100 个结点的完全二叉树，叶结点有____ 个。",
+    "questionImages": [
+      "assets/questions/mock-1-7-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-8",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "8. 对6 个字符构造Huffman 树，树中共有____ 个结点。",
+    "questionImages": [
+      "assets/questions/mock-1-8-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-9",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "9.一片森林有4 棵树、共30 个结点，转换成二叉树后，根结点的右子树上有\n   ____ 个结点（设第一棵树有9 个结点）。",
+    "questionImages": [
+      "assets/questions/mock-1-9-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-1-10",
+    "chapterName": "模拟卷",
+    "type": "填空题",
+    "important": false,
+    "question": "10. 有𝑛个结点的3 叉树（每结点固定3 个孩子指针），空指针共____ 个。",
+    "questionImages": [
+      "assets/questions/mock-1-10-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-2-1",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "1. 下列数据结构中，不属于线性结构的是（　）。A. 栈　B. 队列　C. 串　D. 二\n 叉树",
+    "questionImages": [
+      "assets/questions/mock-2-1-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-2-2",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "2. 入栈序列为1,2,3,4,5，下列不可能是出栈序列的是（　）。A. 5,4,3,2,1 　B.\n   2,1,4,5,3 　C. 4,1,5,3,2 　D. 1,3,2,5,4",
+    "questionImages": [
+      "assets/questions/mock-2-2-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-2-3",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "3. 在带头结点的单链表中，要在p 所指结点之前插入结点s，最省事的做法是\n （　）。A. 从头找到p 的前驱，再插入，𝑂(𝑛) B. 把s 插到p 之后，再交换两\n 者的数据域，𝑂(1) C. 无法做到D. 直接s->next = p，𝑂(1)",
+    "questionImages": [
+      "assets/questions/mock-2-3-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-2-4",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "4. 循环队列用「另设计数器」方案时，判满条件是（　）。A. front == rear 　\n   B. (rear+1)%M == front 　C. count == M 　D. count == M-1",
+    "questionImages": [
+      "assets/questions/mock-2-4-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-2-5",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "5. 已知二叉树的中序序列为DBEAFC、后序序列为DEBFCA，则前序序列为（　）。\n   A. ABDECF 　B. ABCDEF 　C. ABDEFC 　D. ABDCEF",
+    "questionImages": [
+      "assets/questions/mock-2-5-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-2-6",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "6. 下列序列中是最大堆的是（　）。A. (90, 70, 80, 60, 50, 30) 　B. (90, 80,\n   70, 60, 50, 85) C. (90, 70, 80, 85, 50, 30) 　D. (30, 50, 60, 70, 80, 90)",
+    "questionImages": [
+      "assets/questions/mock-2-6-q-1.webp"
+    ],
+    "sourcePage": 91
+  },
+  {
+    "id": "mock-2-7",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "7. 森林中有𝑛个结点、𝑘棵树，转换成的二叉树中，从根出发沿右链走到底能\n 经过（　）个结点。A. 1 　B. 𝑘　C. 𝑛　D. 𝑛−𝑘",
+    "questionImages": [
+      "assets/questions/mock-2-7-q-1.webp"
+    ],
+    "sourcePage": 92
+  },
+  {
+    "id": "mock-2-8",
+    "chapterName": "模拟卷",
+    "type": "选择题",
+    "important": false,
+    "question": "8. 使用路径压缩的并查集，路径压缩发生在（　）。A. Union 时　B. Find 时　C.\n 初始化时　D. 每次访问数组时",
+    "questionImages": [
+      "assets/questions/mock-2-8-q-1.webp"
+    ],
+    "sourcePage": 92
+  },
+  {
+    "id": "mock-3-1",
+    "chapterName": "模拟卷",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "1. 辨析：「用大𝑂表示时间复杂度，说的就是算法在最坏情况下的代价。」",
+    "questionImages": [
+      "assets/questions/mock-3-1-q-1.webp"
+    ],
+    "sourcePage": 92
+  },
+  {
+    "id": "mock-3-2",
+    "chapterName": "模拟卷",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "2. 简答：链式队列在出队使队列变空时，为什么必须同时修改队尾指针？不改\n 会出什么问题？",
+    "questionImages": [
+      "assets/questions/mock-3-2-q-1.webp"
+    ],
+    "sourcePage": 92
+  },
+  {
+    "id": "mock-3-3",
+    "chapterName": "模拟卷",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "3. 简答：KMP算法中，为什么目标串的下标可以自始至终不回退？",
+    "questionImages": [
+      "assets/questions/mock-3-3-q-1.webp"
+    ],
+    "sourcePage": 92
+  },
+  {
+    "id": "mock-3-4",
+    "chapterName": "模拟卷",
+    "type": "辨析与简答",
+    "important": false,
+    "question": "4. 辨析：「二叉搜索树的中序序列有序，所以堆的中序序列也有序。」",
+    "questionImages": [
+      "assets/questions/mock-3-4-q-1.webp"
+    ],
+    "sourcePage": 92
+  },
+  {
+    "id": "mock-4-1",
+    "chapterName": "模拟卷",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "1. 设计算法判断一棵二叉树是否为完全二叉树。写明基本思想，给出算法与复杂\n度。",
+    "questionImages": [
+      "assets/questions/mock-4-1-q-1.webp"
+    ],
+    "sourcePage": 93
+  },
+  {
+    "id": "mock-4-2",
+    "chapterName": "模拟卷",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "2. 给定一个长为𝑛的字符串𝑆，设计𝑂(𝑛) 算法求𝑆的最长回文前缀（即最长的、\n本身是回文的前缀）。写明思想、算法与代价。",
+    "questionImages": [
+      "assets/questions/mock-4-2-q-1.webp"
+    ],
+    "sourcePage": 94
+  },
+  {
+    "id": "mock-4-3",
+    "chapterName": "模拟卷",
+    "type": "算法设计与分析",
+    "important": false,
+    "question": "3. 某班有𝑛名学生，现给出若干条「𝑥与𝑦在同一个小组」的信息。设计数据结\n构与算法，支持：(1) 加入一条信息；(2) 查询两名学生是否同组；(3) 统计小组个\n数。要求每次操作接近𝑂(1)，并说明依据。",
+    "questionImages": [
+      "assets/questions/mock-4-3-q-1.webp"
+    ],
+    "sourcePage": 94
+  },
+  {
+    "id": "mock-5-1",
+    "chapterName": "模拟卷",
+    "type": "数学证明",
+    "important": false,
+    "question": "设一棵非空二叉树有𝑛个结点。证明：它的扩充二叉树（把每棵空子树替换为一\n个外部结点后得到的树）恰有𝑛+ 1 个外部结点，并由此说明：𝑛个结点的二叉\n树用二叉链表存储时，有𝑛+ 1 个空指针域。",
+    "questionImages": [
+      "assets/questions/mock-5-1-q-1.webp"
+    ],
+    "sourcePage": 95
+  }
+]

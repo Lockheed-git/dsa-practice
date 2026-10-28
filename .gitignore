@@ -1,0 +1,4 @@
+node_modules/
+.openai/
+*.log
+__pycache__/
