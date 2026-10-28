@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="数算A期中练习室：210道原题，按章筛选、随机练习、点击查看答案。">
+  <title>数算 A · 练习室</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="./"><span class="brand-icon">A<span>✦</span></span><span>数算 A<small>数据结构与算法</small></span></a>
+  <div class="nav-label">学习空间 <span>WORKSPACE</span></div>
+  <nav class="main-nav" aria-label="练习模式">
+    <button data-mode="random" class="active"><span>⤨</span> 随机练习 <i>↗</i></button>
+    <button data-mode="ordered"><span>▤</span> 顺序练习</button>
+    <button data-mode="review"><span>↺</span> 待复习 <b id="review-count">0</b></button>
+    <button data-mode="favorites"><span>☆</span> 我的收藏 <b id="favorite-count">0</b></button>
+  </nav>
+  <div class="nav-label chapter-label">章节目录 <span>CHAPTERS</span></div>
+  <nav id="chapters" class="chapter-nav" aria-label="章节筛选"></nav>
+  <div class="sidebar-bottom"><span class="live-dot"></span> 学习记录自动保存在本机<small>一点点练习，一步步掌握。</small></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><div><span class="breadcrumb">学习空间</span><span class="slash">/</span><strong id="mode-label">随机练习</strong></div><a href="source.pdf" target="_blank" rel="noopener">查看原题 PDF <span>↗</span></a></header>
+  <main>
+    <section class="hero"><div><div class="eyebrow"><span></span> MIDTERM PRACTICE · CHAPTER 01—06</div><h1>把知识，练成直觉<span>。</span></h1><p>从一道题开始，找到下一次进步。</p></div><div class="hero-mark" aria-hidden="true"><span>{</span> A <span>}</span><small>THINK. SOLVE. REPEAT.</small></div></section>
+    <section class="stats" aria-label="学习进度">
+      <div><span>题库总量 <i>▦</i></span><strong>210<small>道题目</small></strong><p>184 道分章题 + 26 道模拟题</p></div>
+      <div><span>已练习 <i>◷</i></span><strong id="seen-stat">0<small>/ 210</small></strong><p>看过答案的不同题目</p></div>
+      <div><span>已掌握 <i>✓</i></span><strong id="mastered-stat">0<small>道题目</small></strong><p>每一次理解，都算数</p></div>
+      <div class="progress-stat"><span>掌握进度 <strong id="percent-stat">0%</strong></span><div class="progress-track"><div id="mastery-bar"></div></div><p>慢慢来，完成比完美更重要。</p></div>
+    </section>
+    <section class="practice-area">
+      <section class="filter-panel" aria-label="筛选题目">
+        <div class="filter-top"><div class="section-title"><span>⤨</span><h2 id="practice-title">随机练习</h2><small id="pool-count"></small></div><button id="reshuffle" class="text-button">↻ 重新抽题</button></div>
+        <div class="filters"><label>题型 <select id="type-filter" aria-label="题型"><option value="">全部题型</option></select></label><label>范围 <select id="scope-filter" aria-label="练习范围"><option value="all">全部题目</option><option value="important">★ 重点题</option><option value="unmastered">未掌握的题</option><option value="unseen">尚未练习的题</option></select></label><label class="search-field"><span>⌕</span><input id="search" type="search" placeholder="搜索题号或知识点…" aria-label="搜索题号或知识点"></label></div>
+      </section>
+      <details class="source-notes"><summary>题库约定 <span>下标、树高、满二叉树与伪代码口径</span></summary><div id="conventions-content" class="pdf-content"></div></details>
+      <div class="session-line"><span><span class="live-dot"></span> <span id="session-name">随机顺序 · 本轮不重复</span></span><span id="session-progress" aria-live="polite"></span></div>
+      <article class="question-card" id="question-card">
+        <div class="question-header"><div id="question-tags" class="tags"></div><button id="favorite" class="icon-button" aria-label="收藏当前题目" aria-pressed="false">☆</button></div>
+        <div class="question-kicker"><span id="question-id"></span><a id="source-link" href="source.pdf" target="_blank" rel="noopener"></a></div>
+        <div id="question-content" class="pdf-content"></div>
+        <details id="question-context" class="source-notes question-context" hidden><summary>本组通用 ADT / 结构约定 <span>展开查看</span></summary><div id="context-content" class="pdf-content"></div></details>
+        <div class="draft-wrap"><label for="draft">我的思路 <span>仅保存在当前浏览器</span></label><textarea id="draft" rows="3" placeholder="先想一想，也可以在这里写下你的答案…"></textarea></div>
+        <div class="answer-toolbar"><span id="question-state">先独立思考，再揭晓答案</span><button id="reveal" class="primary-button" aria-expanded="false" aria-controls="answer-panel"><span>◉</span> 查看答案</button></div>
+        <section id="answer-panel" class="answer-panel" hidden><div class="answer-heading"><span>✓</span><h3>参考答案与解析</h3><small>来自原题库</small></div><div id="answer-content" class="pdf-content"></div><div class="self-assessment"><span>这道题掌握得怎么样？</span><div><button id="mark-review" class="secondary-button">↺ 还需复习</button><button id="mark-mastered" class="mastered-button">✓ 已掌握</button></div></div></section>
+        <footer class="question-footer"><button id="previous" class="secondary-button">← 上一题</button><span id="question-position"></span><button id="next" class="dark-button">下一题 →</button></footer>
+      </article>
+      <section id="empty-state" class="empty-state" hidden><span>☷</span><h2>这里暂时没有题目</h2><p id="empty-message">试试调整章节、题型或搜索条件。</p><button id="reset-filters" class="primary-button">回到全部题目</button></section>
+      <div class="practice-hint"><span>⌨</span><span>快捷键 <kbd>空格</kbd> 展开答案 <kbd>←</kbd> 上一题 <kbd>→</kbd> 下一题</span><span>原版公式 · 完整图示 · 随时核对</span></div>
+    </section>
+    <footer class="site-footer"><span>数算 A · 练习室 <span class="footer-divider">/</span> 为每一次理解而练习</span><a href="questions.json" download="数算A-题库.json">下载题库数据 ↓</a></footer>
+  </main>
+</div>
+<div id="toast" role="status" class="toast" hidden></div>
+<dialog id="image-dialog"><button id="close-image" aria-label="关闭大图">×</button><img id="large-image" alt="原题放大图"></dialog>
+<script src="questions.js"></script><script src="core.js"></script><script src="app.js"></script>
+</body></html>
